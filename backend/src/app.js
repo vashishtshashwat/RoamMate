@@ -30,7 +30,7 @@ app.use((req, res, next) => {
 });
 
 app.use(cors({
-  origin: 'http://localhost:5173',  // Update if your client is hosted elsewhere
+  origin: ['http://localhost:5173','https://roammate-t6v0.onrender.com'] , // Update if your client is hosted elsewhere
   credentials: true
 }));
 
